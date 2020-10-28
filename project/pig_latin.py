@@ -23,6 +23,7 @@ for word in message.split():
     while not word[-1].isalpha():
         suffix_non_letters += word[-1]
         word = word[:-1]
+        
     was_upper = word.isupper()
     was_title = word.istitle()
     word = word.lower()

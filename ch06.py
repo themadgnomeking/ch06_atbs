@@ -29,3 +29,13 @@ print('''Dear Alice,
 Eve's cat has been arrested for catnapping, cat burglary, and extortion. 
 Sincerely, 
 Bob''')
+
+
+#multiline comments
+"""This is a test Python program from 
+automate the boring stuff.com
+This program was written for Python 3, not Python 2
+"""
+
+
+#indexint and slicing strings

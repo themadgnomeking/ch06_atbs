@@ -20,7 +20,7 @@ table_data = [
 
 def print_table(table_data):
     col_width = [0] * len(table_data)
-    print(col_width)
+    print(str(col_width) + " this is the colum width at present")
     for list_data in table_data:
         
         print(len(max(list_data)))
